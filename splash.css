@@ -1,0 +1,21 @@
+body{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: repeat(3, 1fr);
+  background: url(./background-images/splash-background.jpg);
+}
+.product-name{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin: auto;
+  margin-top: 5%;
+}
+.hero-button{
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  margin: auto;
+  margin-top: 10%;
+}
